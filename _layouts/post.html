@@ -1,15 +1,7 @@
 ---
 layout: default
 ---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
 
-<article class="l-wrap">
-  <div class="l-center-column head-post">
-    <hr class="hr-decorator">
-    <h1 class="title">{{ page.title | escape }}</h1>
-  </div>
-  <div class="post">
-    {{ content }}
-  </div>
-</article>
-
-{% include footer.html %}
+{{ content }}

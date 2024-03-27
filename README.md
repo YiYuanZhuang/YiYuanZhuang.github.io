@@ -1,141 +1,92 @@
-# jekyll-theme-experiment
+# Architect theme
 
-Since I started using [Jekyll](https://jekyllrb.com/) I have wanted to make a theme, so I have decided to create it to publish my portfolio.
+This is a [Jekyll][1] theme that is an adaptation of [@jasonlong][2]'s [Architect theme][4] on [GitHub Pages][3].
 
-![](https://cl.ly/2F3f432B0z09/Screen%20Recording%202018-02-24%20at%2011.23%20p.m..gif)
+This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](https://pages.github.com/).
 
-Made with ♥️ by @anxhe
+![](https://cl.ly/image/1x0Q3213330G/content)
 
-Your can see a demo [here](https://anxhe.github.io/jekyll-theme-experiment/)
+# Getting Started
 
-## Installation
+## Prerequisites
 
-You will need to have installed [ruby](https://www.ruby-lang.org/en/documentation/installation/).
+To install this theme, jekyll is required to be installed on your system. Head over to the [docs](https://jekyllrb.com/docs/installation/) and install the four requirements (Ruby, RubyGems, Node.js and Python 2.7). If you're on a Mac system, it's likely the only package you'll need to install is Node.js
 
-Then, in a bash terminal execute the following commands:
+Once you've installed the requirements, run this command in your terminal:
 
-```sh
-gem install bundler jekyll
+```
+$ sudo gem install jekyll
 ```
 
-## Usage
+You'll also need to install the bundler package:
 
-- Create a new Jekyll site (by running the `jekyll new` command), Jekyll installs a site that uses a gem-based theme called Minima.
-
-```bash
-jekyll new <your-blog-name>
-cd <your-blog-name>
 ```
-- Now we have to replace the `minima` gem with `jekyll-theme-experiment` in `Gemfile`, as follows:
-
-```diff
-# Gemfile
-- gem "minima", "~> 2.0"
-+ gem 'jekyll-theme-experiment'
+$ sudo gem install bundler
 ```
 
-- Then run:
+## Downloading and Installing the theme
 
-`bundle install`
+Download the theme
 
-- Next, we need to replace `minima` theme key in `_config.yml` as follows:
-
-```yml
-# _config.yml
-theme: jekyll-theme-experiment
+```
+https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip
 ```
 
-- Each section and content is customizable via `_config.yml` file:
+Unzip it and use it as a regular jekyll folder.
 
-Replace the sample data with your own:
-
-```yml
-
-title: Your awesome title
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+```
+$ unzip jekyll-architect-theme-master.zip
 ```
 
-jekyll-theme-experiment allows you to customize the following sections in the main layout:
+Get inside the newly extracted folder
 
-  - about
-  - portfolio
-  - tools
-
-Add the following sample data to try it:
-
-```yml
-jekyll-theme-experiment:
-  about: # optional
-    avatar: https://robohash.org/experiment-avatar.png?size=300x300
-
-  portfolio: # optional
-    title: Portfolio
-    # Depending of the number of projects, you will need to update $projects
-    # variable in a sass file. e.g.
-    # _sass/main.scss
-    #
-    projects:
-      - name: Jekyll Theme experiment
-        link: http://example.com
-        github: https://github.com/anxhe/jekyll-theme-experiment
-        img_relative_url: /assets/example.png
-
-  tools: # optional
-    title: Tools and Experience 
-    icons:
-      - relative_url: /assets/icons/bitbucket/bitbucket-original.svg
+```
+$ cd jekyll-architect-theme-master
 ```
 
-By default, jekyll generates a couple markdown files, we'll need to make
-a few changes:
+Install the dependencies
 
-- Update `index.md` adding `title: home` to yaml's frontmatter
-- Delete `about.md`, as this theme uses similar in the home layout.
-- If you pretend use this site for blogging, you'll need to create a `blog.md` file with the following contents:
-
-![](https://cl.ly/3h3v3b210c0p/Screen%20Recording%202018-02-24%20at%2011.27%20p.m..gif)
-
-```md
----
-layout: blog
-title: blog
-permalink: /blog/
----
+```
+$ bundle install
 ```
 
-Now we're ready, start the server:
+Use it!
 
-```sh
-bundle exec jekyll serve
+```
+$ jekyll serve
 ```
 
-Finally, open  http://127.0.0.1:4000/ in the browser, and that's it, feel free to poke around.
+# Setup
 
-## Customize navigation links
+Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
 
-**Taken from minima theme**
 
-This allows you to set which pages you want to appear in the navigation area and configure order of the links. For instance, to only link to the about and the portfolio page, add the following to your `_config.yml`:
+## baseurl
 
-```yml
-header_pages:
-  - about.md
-  - portfolio.md
-```
+`baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: https://pietromenna.github.io/jekyll-architect-theme
 
-## Contributing
+In the case above the baseurl should be set to "/jekyll-architect-theme".
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/anxhe/jekyll-theme-experiment/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+In the case the site sits in the root, you can leave `baseurl` as empty "".
 
-## Credits
 
-- [Jekyll](https://github.com/jekyll/jekyll) and [Minima](https://github.com/jekyll/minima) - Thanks to their creators and contributors
-- [Vitaly Rubtsov](https://dribbble.com/Vitwai) for inspiration on  his [hamburguer menu animation](https://dribbble.com/shots/2293621-Hamburger-Menu-Animation)
-- [Luis Manuel](https://scotch.io/@lmgonzalves) for his implementation of the above hamburger menu on [this tutorial](https://scotch.io/tutorials/building-a-morphing-hamburger-menu-with-css)
+For more details read about [Jekyll][1] on its web page.
 
-## License
+# Contributing
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenna/jekyll-architect-theme.
+
+# Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+# License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
+
+[1]: https://jekyllrb.com
+[2]: https://github.com/jasonlong
+[3]: http://pages.github.com/
+[4]: https://github.com/jasonlong/architect-theme
