@@ -1,41 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ site.locale }}">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
-    <title> {{ page.title }} </title>
-</head>
-<body>
-    <header>
-        <div class="inner">
-            <h1> {{ site.name }} </h1>
-            <h2>Open Source version of the GitHub Pages theme, now for Jekyll</h2>
-        </div>
-    </header>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-    <div id="content-wrapper">
-        <div class="inner clearfix">
-            <!-- Sidebar content moved to the center -->
-            <div id="main-content">
-                <div class="sidebar-content">
-                    <a href="https://github.com/pietromenna/jekyll-architect-theme/archive/master.zip" class="button">
-                        <small>Download</small> .zip file
-                    </a>
-                    <a href="https://github.com/pietromenna/jekyll-architect-theme/archive/master.tar.gz" class="button">
-                        <small>Download</small> .tar.gz file
-                    </a>
-                    <p class="repo-owner"><a href="https://github.com/jasonlong/architect-theme">architect-theme</a> is maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</p>
-                    <p class="repo-owner"><a href="https://github.com/pietromenna/jekyll-architect-theme">jekyll-architect-theme</a> is maintained by <a href="https://github.com/pietromenna">pietromenna</a>.</p>
-                </div>
-                <!-- Your main content goes here -->
-                {{ content }}
-            </div>
-        </div>
-    </div>
-</body>
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
 </html>
