@@ -1,14 +1,41 @@
-# Setup
-name:         GustavHansen's magnificent blog
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
-baseproject:  "SocialDataAssignment2"
-url:          "https://gustavhansen99.github.io/SocialDataAssignment2"
-locale:       "en"
+# Site settings
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
 # Gems
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-#Others
-markdown: kramdown
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
