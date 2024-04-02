@@ -41,7 +41,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 disqus:         jekyll-tale
 
 
-
+remote_theme: chesterhow/tale
 permalink:    /:year-:month-:day/:title
 paginate:     5
 
