@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " The Copenhagen House Price Puzzle: Uncovering Convenient Amenities "
+title:  " Copenhagen House Price Puzzle: Uncovering Surrounding Facilities "
 author: "YiYuan, JiaNan, LingYu"
 comments: true
 tags: Tale
