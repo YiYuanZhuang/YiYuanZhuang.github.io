@@ -16,14 +16,14 @@ San Francisco(SF) is a city full of freedom, but it is also overshadowed by ramp
 
 ## "Carnival" Under the Night
 A comprehensive investigation in San Francisco found that the incidence of theft is shocking, affecting more than half of the city's residents. These incidents involve an astonishing number of blatant car intrusions, often occurring in areas popular with tourists. This unsettling reality resonates deeply with the widespread civic disillusionment in this city. [2] To improve this situation, we first analyzed the distribution of theft in SF during a 24-hour cycle.
-
-[查看交互式图表](https://YiYuanZhuang.github.io/social-data/assets/image/correlation_heatmap.html)
-[查看交互式图表](https://YiYuanZhuang.github.io/social-data/assets/image/map.html)
-[查看交互式图表](https://YiYuanZhuang.github.io/social-data/assets/image/heatmap.html)
-[查看交互式图表](https://YiYuanZhuang.github.io/social-data/assets/image/House_economy_scatter.html)
-[查看交互式图表](https://YiYuanZhuang.github.io/social-data/assets/image/House_Scores_scatter.html)
+assets/images/House _Scores_scatter.html
+[查看交互式图表1](assets/image/correlation_heatmap.html)
+[查看交互式图表](/assets/image/map.html)
+[查看交互式图表](assets/image/heatmap.html)
+[查看交互式图表](assets/image/House_economy_scatter.html)
+[查看交互式图表](assets/image/House_Scores_scatter.html)
 <figure>
-<iframe src="(https://YiYuanZhuang.github.io/social-data/assets/image/House_Scores_scatter.html" style="width: 100%; height: 600px; border: none;"></iframe>
+<iframe src="(assets/image/House_Scores_scatter.html" style="width: 100%; height: 600px; border: none;"></iframe>
     <figcaption>Figure 2: San Francisco Theft Crime Heat Map</figcaption>
 </figure>
 
