@@ -17,11 +17,6 @@ San Francisco(SF) is a city full of freedom, but it is also overshadowed by ramp
 ## "Carnival" Under the Night
 A comprehensive investigation in San Francisco found that the incidence of theft is shocking, affecting more than half of the city's residents. These incidents involve an astonishing number of blatant car intrusions, often occurring in areas popular with tourists. This unsettling reality resonates deeply with the widespread civic disillusionment in this city. [2] To improve this situation, we first analyzed the distribution of theft in SF during a 24-hour cycle.
 
-<figure>
-     <img src="https://YiYuanZhuang.github.io/tale/assets/image/time.png" alt="time" />  
-    <figcaption>Figure 1: 24-hour cycle of larceny/thelft crimes in San Francisco</figcaption>
-</figure>
-
 As the city transitions into evening, a crescendo of red bars signals a surge in theft incidents, peaking at 6 pm. This indicates thefts are more frequent when people may be returning home from get off work or when pedestrian traffic is high. On the contrary, the theft rate is lowest around 5 am. in the morning, and gradually increases after noon to the evening peak.
 
 For community residents, as thefts peak at night, it is a good idea to remain vigilant at dusk, especially in known crowded or high-traffic areas, be more careful to secure personal belongings and be more aware of surroundings observation. Consider scheduling outings at lower-risk times, such as in the morning, to reduce chances of becoming a theft victim.
@@ -30,11 +25,6 @@ Law enforcement agencies can better protect these peak hours by allocating addit
 
 ## Fiery Northeast
 What catches the eye is a hot theft crime map. The red lighting up the northeastern heart of the city in San Francisco is not good news because it means theft is rampant.
-
-<figure>
-<iframe src="https://YiYuanZhuang.github.io/tale/assets/image/map.html" style="width: 100%; height: 600px; border: none;"></iframe>
-    <figcaption>Figure 2: San Francisco Theft Crime Heat Map</figcaption>
-</figure>
 
 During these five years, the density of theft incidents in the northeast of San Francisco has been consistently the highest. This includes public areas with high traffic and a large number of tourists, such as the financial district, the southern part of the market (SoMa), the task area, and the surrounding area of Market Street
 
