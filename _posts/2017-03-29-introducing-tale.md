@@ -52,6 +52,7 @@ After learning so much about housing prices and amenities, do you want to know h
 
 Click [Start journey](https://lit-woodland-17019-4fe9595cf520.herokuapp.com/voila/render/interactive.ipynb?)
 
+<iframe src="https://lit-woodland-17019-4fe9595cf520.herokuapp.com/voila/render/interactive.ipynb?" width="100%" height="500" frameborder="0"></iframe>
 Congratulations, you have completed this exploration journey!
 
 In this exploration of Copenhagen's house prices puzzle, we have delved into how different factors affect the city's house prices. From the distribution of supporting facilities to personal economic conditions, each chapter reveals the complex mechanism of house price formation. We found that although good facilities have a clear positive impact on increasing house prices, this is not the only factor. The population density, income level, and government policies of the area also play a key role.
