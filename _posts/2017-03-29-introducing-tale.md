@@ -10,15 +10,18 @@ hidden: true
 date: 2024-05-07
 ---
 
-In the old and modern city of Copenhagen, the secret of house prices is like a treasure hidden underneath the beautiful streets and canals. Our website takes you on a journey to unravel this mystery through cutting-edge data visualisation techniques. Our goal is to give you not only the information you need to find your future home, but also to enjoy the journey of discovery.
+In the old and modern city of Copenhagen, the secret of house prices is like a treasure hidden underneath the beautiful streets and canals. This article is a journey to unravel this mystery through cutting-edge data visualisation techniques. We hope it can give you inspiration for finding your future home. Let‘s enjoy this journey!
 
-## The beginning of the story: the discovery of the problem
-First, we invite you to explore two unique perspectives:
-1. Graph of correlation coefficients between house prices and neighbourhood amenities: This graph will show the mysterious connection between the number of amenities per unit area and house prices in different areas. Which amenities really push up house prices? Which ones are unexpectedly unrelated to house prices? The story behind the data awaits your discovery.
+## Dancing on the crescent moon
+When you are looking for your ideal home in the Capital Region of Denmark (Region Hovedstaden), will you care about if it close to Føtext or close to Metro? Do you curiuos about how much do different facilities relate to house prices? This clear correlation coefficient graph （Figure 1)  will tell you the answer.
 
 <iframe src="https://YiYuanZhuang.github.io/social-data/assets/image/correlation_heatmap.html" width="100%" height="500" frameborder="0"></iframe>
 
-FINDINGS: As you can see from the chart, the types of amenities that have a high correlation with house prices include metro stations (0.7), gyms (0.7), shops (0.66) and restaurants (0.63). This may indicate that house prices are higher in well-located and convenient areas. The abundance of commercial and leisure facilities has a significant impact on the attractiveness of the area in which one lives, which in turn drives up house prices. Comparatively, firms have the lowest correlation coefficient (0. 4), suggesting that the distribution of firms has less of a direct impact on house prices. While firms may bring economic activity and employment opportunities to the city, the distribution and type of firms has a relatively low direct impact on house prices, especially when compared to amenities that directly affect the quality of life of residents. This may be due to the fact that firms are often concentrated in commercial or industrial areas, which may be less attractive to live in than residential areas with good amenities.
+The above graph shows the mysterious connection between the number of facilities per unit area and house prices in the Capital Region of Denmark. Which facilities really push up house prices? Which ones are unexpectedly unrelated to house prices? The story behind the data awaits your discovery.
+
+As we can see from the chart, the types of facilities that have a high correlation with house prices include  (public transport) station (0.7), gyms (0.7), shops (0.66) and restaurants (0.63). This may indicate that house prices are higher in well-located and prosperous areas. The abundance of commercial and leisure facilities has a significant impact on the attractiveness of living, which in turn drives up house prices. Comparatively, company(0.4) has the lowest correlation coefficient, showing that the distribution of companies has less impact on house prices, especially when compared to facilities that directly affect the quality of life, although they brings economic activity and employment opportunities to the city. This may due to the fact that comapnies are often concentrated in industrial areas, which may be less attractive to live in than residential areas.
+
+
 
 
 2. Scatterplot of regional house prices against amenity scores: Conventional wisdom is that "the more amenities, the higher the house price", but our data paints a more complex picture when the correlation coefficients are used to calculate the amenity scores of different neighbourhoods in relation to house prices. This will challenge your expectations and provoke you to think outside the box.
