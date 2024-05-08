@@ -10,7 +10,7 @@ hidden: true
 date: 2024-05-07
 ---
 
-In the old and modern city of Copenhagen, the secret of house prices is like a treasure hidden underneath the beautiful streets and canals. This article is a journey to unravel this mystery through cutting-edge data visualisation techniques. We hope it can give you inspiration for finding your future home. Let‘s enjoy this journey!
+In the old and modern city of Copenhagen, the secret of house prices is like a treasure hidden underneath the beautiful streets and canals. This article is a journey to unravel this mystery through cutting-edge data visualization techniques. We hope it can give you inspiration for finding your future home. Let‘s enjoy this journey!
 
 ## Dancing on the crescent moon
 When you are looking for your ideal home in the Capital Region of Denmark (Region Hovedstaden), will you care about if it is close to Føtext or close to Metro? Are you curious about how much different facilities relate to house prices? This clear correlation coefficient graph (Figure 1)  will tell you the answer.
@@ -63,5 +63,5 @@ Finally, our research not only provides an in-depth understanding of Copenhagen 
 Uncover the secrets: The map shows the top 3 cities with the recommended facilities scores based on your options, and the line chart shows the housing price trends in the area over the past 20 years, as well as the predicted trends for the next 5 years. I wish we could all find our dream home!
 
 ## Reference
-[1] References Malpezzi, S. (1999). A Simple Error Correction Model of House Prices. Journal of Housing Economics, 8(1), 27-62.
-[2] Miller, N. G., Peng, L., & Sklarz, M. A. (2011). House Prices and Economic Growth. The Journal of Real Estate Finance and Economics, 42(4). DOI: 10.1007/s11146-009-9197-8.
+1.  References Malpezzi, S. (1999). A Simple Error Correction Model of House Prices. Journal of Housing Economics, 8(1), 27-62.
+2.  Miller, N. G., Peng, L., & Sklarz, M. A. (2011). House Prices and Economic Growth. The Journal of Real Estate Finance and Economics, 42(4). DOI: 10.1007/s11146-009-9197-8.
