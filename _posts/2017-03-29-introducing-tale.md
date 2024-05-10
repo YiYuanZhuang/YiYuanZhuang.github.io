@@ -62,8 +62,6 @@ Finally, our research not only provides an in-depth understanding of Copenhagen 
 
 Uncover the secrets: The map shows the top 3 cities with the recommended facilities scores based on your options, and the line chart shows the housing price trends in the area over the past 20 years, as well as the predicted trends for the next 5 years. I wish we could all find our dream home!
 
-<iframe src="https://mybinder.org/v2/gh/YiYuanZhuang/social-data/master?labpath=_posts%2Fradar.ipynb" width="100%" height="800" frameborder="0"></iframe>
-
 ## Reference
 1.  References Malpezzi, S. (1999). A Simple Error Correction Model of House Prices. Journal of Housing Economics, 8(1), 27-62.
 2.  Miller, N. G., Peng, L., & Sklarz, M. A. (2011). House Prices and Economic Growth. The Journal of Real Estate Finance and Economics, 42(4). DOI: 10.1007/s11146-009-9197-8.
