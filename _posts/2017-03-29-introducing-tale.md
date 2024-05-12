@@ -13,7 +13,7 @@ date: 2024-05-07
 In the old and modern city of Copenhagen, the secret of house prices is like a treasure hidden underneath the beautiful streets and canals. This article is a journey to unravel this mystery through cutting-edge data visualization techniques. We hope it can give you inspiration for finding your future home. Let‘s enjoy this journey!
 
 ## Dancing on the crescent moon
-When you are looking for your ideal home in the Capital Region of Denmark (Region Hovedstaden), will you care about if it is close to Føtext or close to Metro? Are you curious about how much different facilities relate to house prices? This clear correlation coefficient graph (Figure 1)  will tell you the answer.
+When you are looking for your ideal home in the Capital Region of Denmark (Region Hovedstaden), will you care about if it is close to Føtex or close to Metro? Are you curious about how much different facilities relate to house prices? This clear correlation coefficient graph (Figure 1)  will tell you the answer.
 
 <iframe src="https://YiYuanZhuang.github.io/social-data/assets/image/correlation_heatmap.html" width="100%" height="500" frameborder="0"></iframe>
 
@@ -25,7 +25,7 @@ If we score the facilities in each municipality according to the correlation coe
 
 <iframe src="https://YiYuanZhuang.github.io/social-data/assets/image//House_Scores_scatter.html" width="100%" height="500" frameborder="0"></iframe>
 
-This result may challenge your expectations, but it also inspires you to think outside the box. Overall, there is no clear linear relationship between scores (Scores) and house prices (Average House Price (DKK)). While Frederiksberg, the highest-scoring district in the upper right corner of the chart, has the highest scores and the highest house prices, the other districts do not follow this principle. Other than that, the rest of the scatter takes on the shape of a crescent, which leads us to notice the two groups: A (top left corner of the scatter): Gentofte and København, where house prices are in the TOP 3, but the amenities score is only about 20 out of 100. B (bottom right of the scatterplot): Rødovre and Herlev, with amenity scores in the TOP 3, but house prices only in the middle 30W (up to 600K).
+This result may challenge your expectations, but it also inspires you to think outside the box. Overall, there is no clear linear relationship between scores (Scores) and house prices (Average House Price (DKK)). While Frederiksberg, the highest-scoring district in the upper right corner of the chart, has the highest scores and the highest house prices, the other districts do not follow this principle. Other than that, the rest of the scatter takes on the shape of a crescent, which leads us to notice the two groups: A (top left corner of the scatter): Gentofte and København, where house prices are in the TOP 3, but the amenities score is only about 20 out of 100. B (bottom right of the scatterplot): Rødovre and Herlev, with amenity scores in the TOP 3, but house prices only in the middle 300K (up to 600K).
 
 The emergence of these two extremes makes us wonder what is behind this phenomenon. Many factors influence house prices, such as population, socio-economics, city policies, and market supply and demand status. In this study, we introduced population and economy as auxiliary research in addition to the factor of facilities.
 
