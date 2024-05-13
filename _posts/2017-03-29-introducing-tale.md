@@ -50,7 +50,9 @@ When excluding these outliers, a general trend emerges: municipalities with high
 This analysis indicates that while facilities play a role in residential attractiveness, the key drivers of housing prices in these regions are the residents’ income levels and the corresponding demand dynamics, rather than just the quantity of local facilities. Thus, housing affordability in high-facility areas may be constrained by the residents' lower income levels, whereas in wealthier areas, residents can sustain higher housing costs even with fewer facilities. This nuanced understanding aligns more clearly with economic principles of supply, demand, and purchasing power in residential real estate markets [1].
 
 ##  Looking to the future
-Embark on a tailored journey to find your ideal home in Copenhagen through our interactive map game! By rating your preferences for amenities on a scale of 1, and clicking the "Start" button, you can explore how different amenities align with your lifestyle. Start your adventure [Start journey](https://lit-woodland-17019-4fe9595cf520.herokuapp.com/voila/render/interactive.ipynb?)
+Embark on a tailored journey to find your ideal home in Copenhagen through our interactive map game! By rating your preferences for amenities on a scale of 1, and clicking the "Start" button, you can explore how different amenities align with your lifestyle. 
+
+[Start your adventure here](https://lit-woodland-17019-4fe9595cf520.herokuapp.com/voila/render/interactive.ipynb?)
 
 The map dynamically displays the top three cities that best match your selected amenities scores. Additionally, a line chart visualizes the trends in housing prices over the past 20 years and projects future trends for the next five years, guiding you towards making an informed decision about your potential new home.
 
